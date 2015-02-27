@@ -26,14 +26,14 @@ RCSwitch rfModule = RCSwitch();
 const int rfModulePin = 13;
 char group[6] = "01110";
 char sockets[8][6]={
-  "00001",
-  "00010",
-  "00100",
-  "01000",
   "10000",
-  "00011",
-  "00110",
+  "01000",
+  "00100",
+  "00010",
+  "11000",
   "01100",
+  "00110",
+  "10010",
 };
 
 //temporary variable
