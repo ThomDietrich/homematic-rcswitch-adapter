@@ -24,8 +24,9 @@ int channelStates[channelCount] = {-1, -1, -1, -1, -1, -1, -1, -1}; // invalid v
 #include <RCSwitch.h>
 RCSwitch rfModule = RCSwitch();
 const int rfModulePin = 13;
-char group[6] = "01110";
+char group[6] = "11011";
 char sockets[8][6]={
+//"ABCDE"
   "10000",
   "01000",
   "00100",
